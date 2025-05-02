@@ -1,0 +1,212 @@
+---
+---
+
+<section class="hero">
+  <div class="container">
+    <div class="hero-content">
+      <div class="hero-text fade-in">
+        <h1>Powering Every <span class="text-gradient">Nonprofit Dollar</span></h1>
+        <p class="hero-subtitle">Smart financial management for nonprofits. Simplify your accounting, stay compliant, and focus on your mission.</p>
+        <div class="hero-buttons">
+          <a href="#contact" class="btn btn-primary">Request a Demo</a>
+          <a href="#features" class="btn btn-secondary">Explore Features</a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat">
+            <span class="stat-number">500+</span>
+            <span class="stat-label">Nonprofits</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">$100M+</span>
+            <span class="stat-label">Managed</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">98%</span>
+            <span class="stat-label">Satisfaction</span>
+          </div>
+        </div>
+      </div>
+      
+      <div class="hero-image fade-in" style="--delay: 0.2s">
+        <div class="dashboard-container">
+          <img src="/images/dashboard.svg" alt="Givefront Dashboard" class="dashboard" />
+          <img src="/images/chart.svg" alt="Donation Chart" class="chart chart-1" />
+          <img src="/images/budget.svg" alt="Budget Breakdown" class="chart chart-2" />
+          <img src="/images/card.svg" alt="Nonprofit Credit Card" class="card" />
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="hero-shape"></div>
+</section>
+
+<style>
+  .hero {
+    padding: 8rem 0 5rem;
+    position: relative;
+    overflow: hidden;
+    background-color: var(--background-alt);
+  }
+  
+  .hero-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: center;
+  }
+  
+  .hero-text {
+    max-width: 600px;
+  }
+  
+  .hero-subtitle {
+    font-size: 1.25rem;
+    color: var(--text-light);
+    margin-bottom: 2rem;
+  }
+  
+  .hero-buttons {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 3rem;
+  }
+  
+  .hero-stats {
+    display: flex;
+    gap: 2.5rem;
+  }
+  
+  .stat {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .stat-number {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: var(--primary);
+  }
+  
+  .stat-label {
+    font-size: 0.875rem;
+    color: var(--text-light);
+  }
+  
+  .hero-image {
+    position: relative;
+    transition-delay: var(--delay, 0s);
+  }
+  
+  .dashboard-container {
+    position: relative;
+    width: 100%;
+    height: 500px;
+  }
+  
+  .dashboard {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    z-index: 1;
+    filter: drop-shadow(0 10px 30px rgba(0, 0, 0, 0.1));
+  }
+  
+  .chart {
+    position: absolute;
+    width: 60%;
+    height: auto;
+    filter: drop-shadow(0 10px 20px rgba(0, 0, 0, 0.1));
+    transition: transform 0.5s ease;
+  }
+  
+  .chart-1 {
+    top: 20%;
+    right: -10%;
+    z-index: 3;
+    animation: float 6s ease-in-out infinite;
+  }
+  
+  .chart-2 {
+    bottom: 10%;
+    left: -5%;
+    z-index: 2;
+    animation: float 8s ease-in-out infinite reverse;
+  }
+  
+  .card {
+    position: absolute;
+    width: 50%;
+    bottom: 5%;
+    right: 0;
+    z-index: 4;
+    animation: float 7s ease-in-out 1s infinite;
+  }
+  
+  .hero-shape {
+    position: absolute;
+    bottom: -5vw;
+    left: 0;
+    width: 100%;
+    height: 10vw;
+    background-color: var(--background);
+    clip-path: ellipse(50% 50% at 50% 100%);
+    z-index: 5;
+  }
+  
+  @keyframes float {
+    0% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-15px);
+    }
+    100% {
+      transform: translateY(0px);
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .hero-content {
+      grid-template-columns: 1fr;
+      gap: 2rem;
+    }
+    
+    .hero-text {
+      text-align: center;
+      margin: 0 auto;
+    }
+    
+    .hero-buttons {
+      justify-content: center;
+    }
+    
+    .hero-stats {
+      justify-content: center;
+    }
+    
+    .hero-image {
+      order: -1;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    
+    .dashboard-container {
+      height: 400px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .hero {
+      padding: 7rem 0 3rem;
+    }
+    
+    .hero-buttons {
+      flex-direction: column;
+    }
+    
+    .dashboard-container {
+      height: 300px;
+    }
+  }
+</style>

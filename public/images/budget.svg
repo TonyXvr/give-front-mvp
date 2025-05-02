@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250" fill="none">
+  <rect width="400" height="250" rx="12" fill="#FFFFFF" filter="drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.1))"/>
+  <text x="30" y="40" font-family="Arial" font-size="16" font-weight="bold" fill="#424242">Budget Breakdown</text>
+  
+  <rect x="30" y="60" width="340" height="20" rx="10" fill="#E8F5E9"/>
+  <rect x="30" y="60" width="240" height="20" rx="10" fill="#2E7D32"/>
+  
+  <text x="30" y="100" font-family="Arial" font-size="12" fill="#9E9E9E">Categories</text>
+  
+  <rect x="30" y="120" width="10" height="10" rx="2" fill="#2E7D32"/>
+  <text x="50" y="130" font-family="Arial" font-size="12" fill="#424242">Programs (60%)</text>
+  
+  <rect x="30" y="140" width="10" height="10" rx="2" fill="#4CAF50"/>
+  <text x="50" y="150" font-family="Arial" font-size="12" fill="#424242">Operations (20%)</text>
+  
+  <rect x="30" y="160" width="10" height="10" rx="2" fill="#81C784"/>
+  <text x="50" y="170" font-family="Arial" font-size="12" fill="#424242">Fundraising (10%)</text>
+  
+  <rect x="30" y="180" width="10" height="10" rx="2" fill="#A5D6A7"/>
+  <text x="50" y="190" font-family="Arial" font-size="12" fill="#424242">Admin (5%)</text>
+  
+  <rect x="30" y="200" width="10" height="10" rx="2" fill="#C8E6C9"/>
+  <text x="50" y="210" font-family="Arial" font-size="12" fill="#424242">Reserve (5%)</text>
+  
+  <path d="M200 140 A60 60 0 0 1 260 170" stroke="#2E7D32" stroke-width="20"/>
+  <path d="M260 170 A60 60 0 0 1 240 210" stroke="#4CAF50" stroke-width="20"/>
+  <path d="M240 210 A60 60 0 0 1 200 220" stroke="#81C784" stroke-width="20"/>
+  <path d="M200 220 A60 60 0 0 1 170 210" stroke="#A5D6A7" stroke-width="20"/>
+  <path d="M170 210 A60 60 0 0 1 200 140" stroke="#C8E6C9" stroke-width="20"/>
+</svg>

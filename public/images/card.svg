@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250" fill="none">
+  <rect width="400" height="250" rx="16" fill="#FFFFFF" filter="drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.1))"/>
+  <rect x="30" y="30" width="60" height="30" rx="4" fill="#2E7D32"/>
+  <text x="40" y="50" font-family="Arial" font-size="14" fill="white">Givefront</text>
+  <rect x="320" y="30" width="50" height="30" rx="4" fill="#F5F5F5"/>
+  <text x="330" y="50" font-family="Arial" font-size="14" fill="#424242">VISA</text>
+  <text x="30" y="120" font-family="Arial" font-size="12" fill="#9E9E9E">Your Organization (General Funds)</text>
+  <text x="30" y="160" font-family="Arial" font-size="18" fill="#424242">•••• •••• •••• 1639</text>
+  <rect x="0" y="200" width="400" height="50" rx="0 0 16 16" fill="#E8F5E9"/>
+</svg>
